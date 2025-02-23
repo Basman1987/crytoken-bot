@@ -3,9 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc --project tsconfig.json",
-    "pages:deploy": "wrangler pages deploy ./src",
-    "dev": "wrangler pages dev ./src",
+    "build": "tsc",
+    "deploy": "npm run build && wrangler deploy",
+    "dev": "wrangler dev",
     "start": "wrangler dev"
   },
   "dependencies": {
