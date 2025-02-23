@@ -3,8 +3,10 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
+    "build": "tsc --project tsconfig.json",
     "pages:deploy": "wrangler pages deploy ./src",
-    "dev": "wrangler pages dev ./src"
+    "dev": "wrangler pages dev ./src",
+    "start": "wrangler dev"
   },
   "dependencies": {
     "ethers": "^6.11.1"
