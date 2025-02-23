@@ -1,9 +1,12 @@
 name = "crytoken-bot"
 compatibility_date = "2024-02-23"
 
-[triggers]
-crons = ["0 */4 * * *"]
+[site]
+bucket = "./src"
 
 [build]
 command = ""
+
+[triggers]
+crons = ["0 */4 * * *"]
 

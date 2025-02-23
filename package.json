@@ -3,9 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev"
+    "pages:deploy": "wrangler pages deploy ./src",
+    "dev": "wrangler pages dev ./src"
   },
   "dependencies": {
     "ethers": "^6.11.1"
