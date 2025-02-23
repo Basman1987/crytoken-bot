@@ -1,7 +1,9 @@
 name = "crytoken-bot"
 compatibility_date = "2024-02-23"
-main = "src/worker.ts"
 
 [triggers]
 crons = ["0 */4 * * *"]
+
+[build]
+command = ""
 
